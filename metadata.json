@@ -1,0 +1,24 @@
+{
+  "name": "panaceya-ks",
+  "version": "0.0.1",
+  "author": "Panaceya",
+  "summary": " Puppet module for Kickstart to automate a Red Hat Enterprise Linux OS installing",
+  "license": "GPLv2",
+  "source": "https://github.com/panaceya/puppet-ks",
+  "project_page": "https://github.com/panaceya/puppet-ks",
+  "issues_url": "https://github.com/panaceya/puppet-ks/issues",
+  "description": "Puppet module for Kickstart to automate a Red Hat Enterprise Linux OS installing",
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": ">= 4.2.0" },
+    { "name": "puppetlabs/apt", "version_requirement": "> 0.0.0" },
+    { "name": "puppetlabs/inifile", "version_requirement": ">= 1.0.0" },
+  ],
+  "requirements": [
+    { "name": "puppet", "version_requirement": "3.x" },
+    { "name": "pe", "version_requirement": "3.x" }
+  ],
+  "operatingsystem_support": [
+    { "operatingsystem": "RedHat" },
+    { "operatingsystem": "CentOS" },
+  ]
+}
